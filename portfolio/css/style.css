@@ -239,7 +239,6 @@ main{
 #page-top a {
   display: block;
   z-index: 999;
-  padding: 5px 0 0 5px;
   border-radius: 30px;
   width: 35px;
   height: 35px;
