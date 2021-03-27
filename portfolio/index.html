@@ -39,10 +39,11 @@
             });
         });
     </script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
     <script>
         $(function () {
             // #で始まるアンカーをクリックした場合に処理
-            $('a[href^="#"]').click(function () {
+            $('a[href^=#]').click(function () {
                 // スクロールの速度
                 var speed = 500; // ミリ秒
                 // アンカーの値取得
@@ -119,7 +120,6 @@
                             <small>
                                 <span class="jp">
                                     京都のとある情報系大学生です。<br>
-                                    ゲームプランナーを目指しています。
                                 </span>
                             </small>
                         </p>
@@ -255,7 +255,7 @@
             </ul>
         </div>
         <p id="copyright">
-            <small>©2020 - K.Horibe</small>
+            <small>©2021 - K.Horibe</small>
         </p>
     </footer>
 </body>
