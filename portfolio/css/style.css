@@ -15,6 +15,7 @@ a{
 
 img{
   max-width: 100%;
+  min-width: 60%;
 }
 
 p{
@@ -163,7 +164,7 @@ main{
 }
 
 .section-title{
-  padding-bottom: 20%;
+  padding-bottom: 10%;
 }
 
 /*About Me*/
