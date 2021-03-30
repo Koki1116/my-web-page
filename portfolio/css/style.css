@@ -18,7 +18,7 @@ img{
 }
 
 p{
-  line-height: 2.5;
+  line-height: 2.4;
 }
 
 /*header*/
@@ -154,6 +154,7 @@ nav{
     position: relative;
     width: 100vw;
     height: 100vh;
+    display:block;
 }
   
 /*main*/
@@ -193,7 +194,7 @@ main{
 }
 
 .myimage{
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 .about-cont{
@@ -215,7 +216,6 @@ main{
 /*Learn*/
 .img-learn{
   background-color: #000000;
-  display:inline-block;
 }
 
 .img-learn img{
@@ -250,14 +250,13 @@ main{
 /*footer*/
 #page-top {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 4%;
+  right: 4%;
 }
 
 #page-top a {
   display: block;
   z-index: 999;
-  padding: 5px 0 0 5px;
   border-radius: 30px;
   width: 35px;
   height: 35px;
