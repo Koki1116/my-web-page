@@ -15,7 +15,6 @@ a{
 
 img{
   max-width: 100%;
-  min-width: 60%;
 }
 
 p{
@@ -195,13 +194,13 @@ main{
 .backimg-about{
   position: relative;
   width: 100vw;
-  height: 105vh;
+  height: 120vh;
 }
 
 
 .about-cont{
   position: absolute;
-	top: 153%;
+	top: 159%;
 	left: 50%;
 	transform: translate(-50%, -50%);
    
@@ -248,7 +247,7 @@ main{
 
 .learn-cont{
   position: absolute;
-	top: 253%;
+	top: 263%;
 	left: 50%;
 	transform: translate(-50%, -50%);
    
